@@ -37,7 +37,6 @@ public abstract class KiallitasiTargy {
         return "KiallitasiTargy{" + "datum=" + datum + ", keszito=" + keszito + ", cim=" + cim + '}';
     }
     
-    @Override
     public int compareTo(KiallitasiTargy o, KiallitasiTargy p) {
         return this.keszito.compareTo(o.getKeszito());
 //        return this.cim.compareTo(p.getCim());
